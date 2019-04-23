@@ -1,0 +1,7 @@
+[package]
+name = "vm-pci"
+version = "0.1.0"
+authors = ["Jing Liu <jing2.liu@linux.intel.com>"]
+
+[dependencies]
+vm-device = { path = "../vm-device" }
