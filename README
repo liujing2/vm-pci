@@ -1,0 +1,24 @@
+# vm-pci
+A library of PCI and PCI Express architecture to implement PCI buses and PCI devices for virtual machine.
+
+PCI/PCIe is mostly used architecture for hypervisor and VMM. The `vm-pci` crate provides a set of traits to describe common PCI/PCIe devices and buses behaviours. Based on these traits, VMM can define or add their device and bus instances as requested, and use `vm-device` trait to manage these instances.
+
+This library has dependency of vm-device library which is a high level virtual machine device model crate.
+
+## Example
+- Create a PCIe bus as the first bus (bus 0) in the topology.
+```
+
+
+```
+
+- Create a Dummy device under the PCIe bus (bus 0).
+```
+
+```
+
+## License
+This project is licensed under
+- Apache License, Version 2.0, (LICENSE or http://www.apache.org/licenses/LICENSE-2.0)
+- BSD-3-Clause License, (LICENSE-BSD-3-Clause or https://opensource.org/licenses/BSD-3-Clause)
+
