@@ -3,6 +3,7 @@
 
 extern crate vm_device;
 extern crate byteorder;
+extern crate log;
 
 pub mod pci_device;
 pub mod pci_bus;
