@@ -6,3 +6,4 @@ authors = ["Jing Liu <jing2.liu@linux.intel.com>"]
 [dependencies]
 vm-device = { path = "../vm-device" }
 byteorder = ">=1.2.1"
+log = ">=0.4.0"
