@@ -7,3 +7,7 @@ authors = ["Jing Liu <jing2.liu@linux.intel.com>"]
 vm-device = { path = "../vm-device" }
 byteorder = ">=1.2.1"
 log = ">=0.4.0"
+
+[dependencies.vm-memory]
+git = "https://github.com/rust-vmm/vm-memory"
+features = ["backend-mmap"]
