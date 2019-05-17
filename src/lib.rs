@@ -5,6 +5,8 @@ extern crate vm_device;
 extern crate byteorder;
 extern crate log;
 
+pub mod dummy_device;
+pub mod msix;
 pub mod pci_device;
 pub mod pci_bus;
 pub mod pci_configuration;
